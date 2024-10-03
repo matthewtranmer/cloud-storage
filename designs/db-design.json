@@ -1,0 +1,30 @@
+{ 
+    "uuid": "b9fdbb3e-06f2-45ee-8bb8-89fd1169e061", 
+    "filename": "",
+    "checksum":"89fd1169e061", 
+    "file-size": 5,
+    "nodes-used": ["osn.1", "osn.2", "osn.3"],
+    "data":[
+            [
+                {
+                    "storage-node": "osn.1",
+                    "checksum": "34thgrtyru6t",
+                    "start-block": 1,
+                    "end-block": 2
+                },
+                {
+                    "storage-node": "osn.2",
+                    "checksum": "34thgrtyru6t",
+                    "start-block": 7,
+                    "end-block": 8
+                },
+                {
+                    "storage-node": "osn.3",
+                    "checksum": "34thgrtyru6t",
+                    "start-block": 3,
+                    "end-block": 4
+                }
+            ]
+        ]  
+}
+

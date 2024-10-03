@@ -1,0 +1,12 @@
+services:
+  metadata-db:
+    build: .
+    ports:
+      - 27017:27017
+    volumes:
+      - metadata-test1:/data/db
+    environment:
+      - MONGO_INITDB_ROOT_USERNAME=test1_user
+      - MONGO_INITDB_ROOT_PASSWORD=test1_pass
+volumes:
+  metadata-test1:

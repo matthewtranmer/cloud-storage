@@ -1,0 +1,10 @@
+#FROM mongo:8.0-rc
+FROM mongodb/mongodb-community-server
+
+ENV MONGO_INITDB_ROOT_USERNAME="test1_user"
+ENV MONGO_INITDB_ROOT_PASSWORD="test1_pass"
+
+WORKDIR /manager-service
+
+#COPY . .
+
